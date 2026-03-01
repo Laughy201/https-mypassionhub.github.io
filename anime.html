@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!-- =========================================
+     DOCUMENT DECLARATION
+     - Tells the browser this is an HTML5 document
+========================================= -->
+
+<html lang="en">
+<!-- Root element of the webpage
+     lang="en" improves accessibility & search engines -->
+
+<head>
+<!-- =========================================
+     HEAD SECTION (Page Setup)
+     - Contains metadata (not visible on page)
+     - Sets page title
+     - Connects external CSS file
+========================================= -->
+
+<meta charset="utf-8">
+<!-- Allows special characters and proper formatting -->
+
+<title>Anime | Passion Nexus</title>
+<!-- Text shown on browser tab -->
+
+<link rel="stylesheet" href="styles.css">
+<!-- Links this page to your external CSS stylesheet -->
+
+</head>
+
+<body>
+<!-- =========================================
+     BODY SECTION
+     - Everything inside here appears on the webpage
+========================================= -->
+
+
+<!-- =========================================
+     HEADER SECTION
+     - Contains the main page title
+     - Styled in CSS (font, glow, spacing, etc.)
+========================================= -->
+<header>
+<h1>Forged in Fiction: Stories That Strengthened Me</h1>
+</header>
+
+
+<!-- =========================================
+     NAVIGATION BAR
+     - Contains links to other pages
+     - Allows user to move between sections
+     - Styled via CSS (colors, hover glow, spacing)
+========================================= -->
+
+<nav>
+<a href="carrie.html">Home</a>
+<a href="games.html">Games</a>
+<a href="anime.html">Anime</a>
+<a href="music.html">Music</a>
+</nav>
+
+<img src="AnimeImage.png" alt="Description of image"> 
+
+<main>
+
+<!-- =========================================
+     INTRO QUOTE
+     - <blockquote> emphasizes important text
+     - Styled differently in CSS
+========================================= -->
+
+<blockquote>
+<!-- Used for important quotes or emphasized text -->
+Every character who refused to give up reminded me that I don’t have to either.
+</blockquote><br>
+
+<p>
+Anime, for me, isn’t just entertainment. It’s motivation. It’s a reflection. Its growth. The best series don’t just tell a story. They challenge you. They push you. They hold a mirror up to your fears, your ambition, and your limits. These are the anime that didn’t just stay on my screen. They stayed with me.
+</p>
+
+<!-- =========================================
+     TOP ANIME LIST
+     - <h2> is a section heading
+     - class="glow" applies glow styling from CSS
+     - <ul> creates an unordered bullet list
+========================================= -->
+
+<h2 class="glow">Top Animes</h2>
+<ul>
+<li>Blue Lock</li>
+<li>Attack on Titan</li>
+<li>Demon Slayer</li>
+<li>Black Clover</li>
+<li>Solo Leveling</li>
+</ul><br><br><br>
+
+<!-- =========================================
+     ANIME SECTION 1: Blue Lock
+     - Video is centered using "video-center" class
+     - <video> plays media (autoplay, muted, loop)
+     - <source> specifies file type
+========================================= -->
+
+<div class="video-center">
+  <video autoplay muted loop controls>
+    <source src="BLspeech.mp4" type="video/mp4">
+  </video>
+</div>
+<br>
+
+<h3 class="glow">Blue Lock</h3>
+<p>
+Blue Lock hit me immediately with its intensity. What really stuck with me was Isagi’s turning point in the beginning. He had a choice: play it safe and follow the crowd, or trust that small spark inside him and aim higher. When he unconsciously stepped into his ego and chose to rise instead of blend in, that moment screamed at me. It reminded me that sometimes the difference between average and extraordinary is believing you deserve to aim higher. The quotes, rivalries, psychological battles, and the growth each character experiences make it more than just a sports anime. It’s about ambition. It’s about hunger. It’s about choosing to stand out.
+</p><br>
+
+<!-- =========================================
+     ANIME SECTION 2: Attack on Titan
+     - Heading styled with glow class
+     - Paragraph reflection
+========================================= -->
+
+<h3 class="glow">Attack on Titan</h3>
+<p>
+Attack on Titan is emotional chaos in the best way. It makes you question everything. The final season (more like the final movie) especially shook me. The shifts, the revelations, the moral gray areas. Nothing stays simple. One moment that gives me chills every time is Commander Erwin’s speech. It’s about standing firm even when fear is screaming at you. There are so many powerful moments in this series, but that speech? That conviction? It motivates me deeply.<p>
+</p>
+
+<br><br>
+
+<!-- Video Clip Section -->
+
+<div class="video-center">
+  <video autoplay muted loop controls>
+    <source src="Espeech.mov" type="video/mp4">
+  </video>
+</div>
+<br>
+
+<!-- =========================================
+     QUOTE SECTION USING DEFINITION LIST
+     - <dl> = definition list container
+     - <dt> = term (main idea sentence)
+     - <dd> = definition (expanded quote)
+     - blockquote styled with "white-quote"
+========================================= -->
+
+<dl>
+    <!-- Term (last sentence / identifying line) -->
+    <dt>Attack on Titan reminds me that even in a broken world, resolve matters.</dt>
+
+    <!-- Definition (the full quote) -->
+    <dd>
+        <blockquote class="white-quote">
+        Everything that you thought had meaning: every hope, dream, or moment of happiness. 
+        None of it matters as you lie bleeding out on the battlefield. None of it changes 
+        what a speeding rock does to a body, 
+        <span class="glow">we all die.</span> 
+
+        But does that mean our lives are meaningless? Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were THEY meaningless?... 
+
+        <span class="glow">THEY WERE NOT! THEIR MEMORY SERVES AS AN EXAMPLE TO US ALL!</span> 
+
+        The <span class="glow">COURAGEOUS</span> fallen! 
+        The <span class="glow">ANGUISHED</span> fallen! 
+
+        Their lives have <span class="glow">MEANING</span> because 
+        <span class="glow">WE</span> the living 
+        <span class="glow">REFUSE TO FORGET THEM!</span> 
+
+        And as we ride to certain death, we 
+        <span class="glow">TRUST OUR SUCCESSORS</span> to do the 
+        <span class="glow">SAME FOR US!</span> 
+
+        Because MY soldiers do not buckle or yield when faced with the 
+        <span class="glow">CRUELTY OF THIS WORLD!</span> 
+
+        MY SOLDIERS <span class="glow">PUSH FORWARD!</span>  
+        MY SOLDIERS <span class="glow">SCREAM OUT!</span>  
+        MY SOLDIERS <span class="glow">RAAAAAGE!</span><br><br> 
+	<span class="glow">- Commander Erwin Smith</span> 
+        </blockquote>
+    </dd>
+</dl>
+
+<!-- =========================================
+     ANIME SECTION 3: Assassination Classroom
+========================================= -->
+
+<h3 class="glow">Assassination Classroom</h3>
+<p>
+Assassination Classroom balances absurd comedy and genuine emotion in a way that sneaks up on you. At first, it feels ridiculous. A bright yellow octopus-like teacher who can destroy the Earth and a class of misfits are told that their only goal is to assassinate him. But beneath that wild setup, the story is grounded in something simple and powerful: growth. Class 3-E starts off labeled as failures. They’re pushed aside, underestimated, treated like they don’t matter. And then Koro-sensei walks in. Instead of seeing their weaknesses as proof they’re hopeless, he treats them as starting points. He studies each student carefully, finds what makes them tick, and teaches in a way that fits them. Not just how to fight or calculate a shot, but how to believe in themselves. What makes it hit so hard is that Koro-sensei isn’t just training them to kill him. He’s preparing them for a world that has already decided they would fail. He gives them tools, confidence, and pride. And by the time the story reaches its end, the emotional weight is almost unbearable. The very person who helped them grow is the one they’re meant to destroy.
+<p><br><br>
+
+<!-- Video Section -->
+
+<div class="video-center">
+  <video autoplay muted loop controls>
+    <source src="Kspeech.mov" type="video/mp4">
+  </video>
+</div>
+<br>
+
+<!-- Definition List Quote Structure -->
+
+<dl>
+    <!-- Term (reminder line as the main idea) -->
+    <dt>Assassination Classroom reminds me that great teachers change lives, whether in loud, dramatic ways or quiet, painful ones, and that the lessons that shape us most often stay with us the longest.
+</dt>
+
+    <!-- Definition (full quote + author at the end) -->
+    <dd>
+        <blockquote class="white-quote">
+    Don’t let one <span class="yellow-glow">failure overshadow the skills you’ve worked so hard to cultivate.</span> 
+    The <span class="yellow-glow">best of us</span> fall short of our abilities from time to time. 
+
+    You maintain a facade of stoic nonchalance, but feel 
+    <span class="yellow-glow">burdened</span> 
+    by the confidence your classmates place in you all the same. 
+    <span class="yellow-glow">Few guess it’s your inner anguish</span>, 
+    but it’s there just beneath the surface. 
+
+    You’re not alone in this. 
+    <span class="yellow-glow">You give it a brave face, but you needn’t bear the pressure on your own.</span> 
+
+    If you miss the shot, there’s a fallback strategy. 
+    We’ll play hot potato with a gun, and continue shuffling everyone until our foe has no idea where the next shot will come from. 
+    The reason that strategy won’t work is because 
+    <span class="yellow-glow">everyone</span> 
+    here has tasted the agony of defeat. 
+    <span class="yellow-glow">Yes there is pressure.</span> 
+    But your classmates are in the same boat. Learn to take solace in that. 
+
+    With the balance of 
+    <span class="yellow-glow">opportunity</span> 
+    and 
+    <span class="yellow-glow">motivation</span>, 
+    anyone can expand their horizon. They just have to move out of their comfort zone. 
+    But we can’t often do so on our own. We need a foe to challenge our complacency. 
+    Force us to draw upon resources we never knew we had. 
+
+    That, you see, is precisely why I became a 
+    <span class="yellow-glow">teacher.</span> 
+    To spark potential. To give my students both the 
+    <span class="yellow-glow">opportunity</span> 
+    to succeed and the 
+    <span class="yellow-glow">motivation.</span> 
+
+    <br><br>
+    <span class="yellow-glow">- Koro Sensei</span>
+</blockquote>
+    </dd>
+</dl>
+
+<!-- =========================================
+     ANIME SECTION 4: Black Clover
+========================================= -->
+
+<h3 class="glow">Black Clover</h3>
+<p>
+From the moment Asta appeared on screen, I was hooked. Here’s someone born without magic in a world where magic is everything. And instead of accepting that as his limit, he decides to surpass it. There’s a moment during the elf arc where Asta speaks directly into someone’s despair and tells them not to ever give up again. The way his voice softens when he says it hits hard. It felt personal, like a reminder meant for me, too, sending shivers down my spine. And Captain Yami is constantly pushing him to go beyond his limits, which resonates deeply. I’ve had moments in my life where I had to go beyond 100%, where quitting felt easier.
+</p>
+
+<br><br>
+<!-- Video Section -->
+
+<div class="video-center">
+  <video autoplay muted loop controls>
+    <source src="Aspeech.mov" type="video/mp4">
+  </video>
+</div>
+<br>
+
+
+<dl>
+    <dt>Black Clover reminds me that limits are meant to be broken.</dt>
+
+    <!-- Definition (full quote) -->
+    <dd>
+        <blockquote class="white-quote">
+        <span class="glow-blue">I get it.</span> 
+        You were tricked. You couldn't protect the ones you loved and everything you once believed in was lost. You're dealing with so many crazy feelings, you can't stand it anymore. But that's why, I have to tell you THIS. 
+
+        <span class="glow-blue">DON'T YOU DARE GIVE UP AGAIN.</span> 
+
+        All you EVER done is give up. Instead of 
+        <span class="glow-blue">FACING your problems, you LOCKED yourself away and HID in the darkness</span> 
+        because 
+        <span class="glow-blue">you THOUGHT</span> it was the 
+        <span class="glow-blue">easiest</span> thing to do. 
+
+        And now after all 
+        <span class="glow-blue">YOU DID</span> you're acting like 
+        <span class="glow-blue">THIS?!</span> 
+
+        Just because 
+        <span class="glow-blue">you</span> made a 
+        <span class="glow-blue">MISTAKE</span> that you can't fix, it doesn't mean you are allowed to RUNAWAY AND CRY! 
+
+        <span class="glow-blue">Think about it.</span> 
+        Shouldn't you be trying to defeat that creepy devil guy too? 
+
+        <span class="glow-blue">YOU HAD THE GUTS TO MAKE EVERYTHING ELSE HAPPEN, RIGHT? YOU DID THAT!</span> 
+
+        Maybe you weren't 
+        <span class="glow-blue">chosen</span>, maybe no one 
+        <span class="glow-blue">wanted</span> you and maybe you can't be 
+        <span class="glow-blue">forgiven</span>; but you still have to 
+        <span class="glow-blue">STAND YOUR GROUND WITHOUT MAKING EXCUSES FOR YOURSELF!</span><br><br>
+<span class="glow-blue">- Asta</span><br>
+        </blockquote>
+    </dd>
+</dl>
+
+<!-- =========================================
+     ANIME SECTION 5: Solo Leveling
+========================================= -->
+
+<h3 class="glow">Solo Leveling</h3>
+<p>
+Solo Leveling connects with me on a personal level. Sung Jin-Woo starts as the weakest. The lowest rank. The one everyone looks down on.
+Then comes that moment early on, when he sacrifices himself because he believes he has no other choice. His monologue early on hit me hard.
+As he’s at his breaking point, he realizes this isn’t fair. He doesn’t want to end there. He wants another chance. That plea. That refusal to accept defeat. That moment moved me and felt personal. Because I’ve had moments where I felt at my limit, too. Where I thought I couldn’t go any further. <p>
+</p>
+
+<br>
+
+<!-- Video Section -->
+
+<div class="video-center">
+  <video autoplay muted loop controls>
+    <source src="SL.mp4" type="video/mp4">
+  </video>
+</div>
+<br>
+
+<dl>
+
+    <!-- Term (author line) -->
+    <dt>Solo Leveling reminds me that sometimes your lowest point is the start of your rise.</dt>
+
+    <!-- Definition (full quote) -->
+    <dd>
+        <blockquote class="white-quote">
+        I've always been the <span class="blue-glow">weakest</span>, 
+        and I've been <span class="blue-glow">mocked</span> for it at every turn. 
+        But I still <span class="blue-glow">try as hard as I can.</span> 
+
+        So this... shit... SHIT. 
+        <span class="blue-glow">THIS IS BULLSHIT! BULLSHIT!</span> 
+
+        I wanted to be <span class="blue-glow">stronger</span>. 
+        I <span class="blue-glow">TRIED</span>, but I never could. 
+
+        I get it. I fought tooth and nail to 
+        <span class="blue-glow">earn my keep</span> and I got this far. 
+
+        But you were past your limit? Yeah, we ALL felt that way. 
+        YOU WERE MAKING 
+        <span class="blue-glow">EXCUSES FOR YOUR OWN SELFISHNESS!</span> 
+
+        That gratitude was as EMPTY as my wallet. 
+        Leave it to a genuine 
+        <span class="blue-glow">PIECE OF TRASH</span> to 
+        <span class="blue-glow">USE ME AND THROW ME AWAY FOR HIS BENEFIT!</span> 
+
+        I'VE GOT A FAMILY TOO!  
+        I WANTED TO MAKE IT HOME ALIVE TOO!  
+
+        I wish...I had another chance.
+	<br><br><span class="blue-glow">- Sung Jinwoo</span>
+        </blockquote>
+    </dd>
+</dl><br>
+
+<!-- =========================================
+     FEATURE IMAGE SECTION
+     - image-center class centers image
+     - inline style adds border and padding
+========================================= -->
+
+<div class="image-center">
+  <img src="BL.png"  style="width: 600px; border: 8px solid #FFF; padding: 5px;">
+</div><br>
+
+<h3 class ="glow">Continue the Journey</h3>
+<p>
+These stories didn’t just entertain me. They strengthened me. They challenged me to push harder, think deeper, and refuse to stay down.
+If you’d like to read deeper reflections, character breakdowns, and my personal thoughts on specific arcs and moments, you can explore my anime blog below. That’s where I dive even further into the stories that helped shape who I am.
+</p><br>
+
+<!-- =========================================
+     EXTERNAL LINK
+     - target="_blank" opens in new tab
+========================================= -->
+
+<p>
+<a href="https://mypersonalanimewatchlist.blogspot.com/" target="_blank">
+Visit My Blog
+</a>
+</p>
+
+<!-- =========================================
+     FOOTER SECTION
+     - Contains smaller closing information
+     - Usually styled differently in CSS
+========================================= -->
+
+<footer>
+<small>Passion Hub - Anime<br>
+How Anime Has Motivated Me
+</small>
+</footer>
+
+</main>
+
+</body>
+</html>
